@@ -1,0 +1,23 @@
+https://docs.oracle.com/en/database/oracle/oracle-database/19/lnoci/instant-client.html#GUID-81D364CE-326D-4B3C-8C82-F468FF1AF30C
+
+https://www.oracle.com/database/technologies/instant-client/downloads.html
+
+./configure --sysconfdir=/etc/zabbix --enable-server --with-libcurl --with-libxml2 --with-ssh2 --with-net-snmp --with-openipmi --with-jabber --with-openssl --with-unixodbc --with-ldap --with-oracle-lib=/usr/lib/oracle/19.6/client64/lib --with-oracle-include=/usr/include/oracle/19.6/client64
+
+./configure --prefix=/zabbix_server --enable-server --with-oracle --with-net-snmp --with-libcurl --with-libxml2
+
+https://www.zabbix.com/documentation/current/manual/installation/install
+
+https://www.zabbix.com/forum/zabbix-help/403309-zabbix-5-installation-with-oracle-database
+
+https://catonrug.blogspot.com/2018/09/compile-zabbix-server-oracle-xe.html
+
+https://repo.zabbix.com/
+
+https://medium.com/@pmatv/zabbix-compilation-dependencies-c545b7a3ad43
+
+
+sudo sh -c "echo /usr/lib/oracle/12.2/client64/lib >/etc/ld.so.conf.d/oracle-instantclient.conf"
+  sudo ldconfig
+  
+ https://www.oracle.com/br/database/technologies/instant-client/linux-x86-64-downloads.html
